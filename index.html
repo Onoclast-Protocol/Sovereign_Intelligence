@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sovereign Revelation-Chain</title>
+  <meta name="description" content="Decentralized news, marketplace, oracles, gaming, DAO, and devtools interface for Sovereign Revelation-Chain.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='50%' x='50%' dominant-baseline='middle' text-anchor='middle' font-size='18'>⛓️</text></svg>"/>
+  <style>
+    :root {
+      --color-bg: #111;
+      --color-header-nav-footer: #222;
+      --color-panel-bg: #1a1a1a;
+      --color-main: #eee;
+      --color-accent: #0ff;
+      --color-btn-bg: #0ff;
+      --color-btn-text: #111;
+      --radius: 10px;
+      --transition: 0.2s all;
+    }
+    html {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    *, *::before, *::after { box-sizing: inherit; }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: var(--color-bg);
+      color: var(--color-main);
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header, nav, footer {
+      background: var(--color-header-nav-footer);
+      padding: 12px 24px;
+      text-align: center;
+      letter-spacing: .01em;
+    }
+    header h1 {
+      color: var(--color-accent);
+      font-size: 2rem;
+      margin: 0 0 0.25em 0;
+      letter-spacing: 0.01em;
+    }
+    header p {
+      margin: 0;
+      color: #b3f6ff;
+      font-size: 1.1em;
+      font-weight: 500;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+      border-bottom: 1px solid #222b;
+    }
+    nav a {
+      display: inline-block;
+      color: var(--color-accent);
+      background: transparent;
+      text-decoration: none;
+      padding: 8px 18px;
+      border-radius: 5px;
+      font-weight: 500;
+      letter-spacing: .02em;
+      transition: background var(--transition), color var(--transition);
+    }
+    nav a:hover, nav a:focus-visible {
+      background: var(--color-accent);
+      color: var(--color-btn-text);
+      outline: none;
+    }
+    main {
+      flex: 1 1 auto;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+      gap: 28px;
+      padding: 32px 5vw;
+      align-items: stretch;
+    }
+    .panel {
+      background: var(--color-panel-bg);
+      padding: 28px 24px 24px 24px;
+      border-radius: var(--radius);
+      box-shadow: 0 3px 12px #0002;
+      display: flex;
+      flex-direction: column;
+      min-height: 240px;
+      transition: background var(--transition), box-shadow var(--transition);
+    }
+    .panel h2 {
+      margin-top: 0;
+      color: var(--color-accent);
+      font-size: 1.3em;
+    }
+    .panel p {
+      flex: 1 1 auto;
+      color: #c9eaff;
+      font-size: 1.06em;
+    }
+    button {
+      background: var(--color-btn-bg);
+      color: var(--color-btn-text);
+      border: none;
+      padding: 12px 22px;
+      cursor: pointer;
+      margin-top: 18px;
+      border-radius: 5px;
+      font-weight: 600;
+      font-size: 1em;
+      letter-spacing: .03em;
+      transition: background var(--transition), color var(--transition), box-shadow var(--transition);
+      box-shadow: 0 2px 8px #0ff3;
+    }
+    button:hover, button:focus-visible {
+      background: #00bcd4;
+      color: #fff;
+      outline: none;
+    }
+    footer {
+      font-size: 1em;
+      color: #aeefff;
+      border-top: 1px solid #222b;
+      margin-top: 24px;
+    }
+    @media (max-width: 700px) {
+      nav { font-size: 0.97em; }
+      .grid { padding: 18px 2vw; gap: 16px; }
+      .panel { padding: 16px 10px 14px 10px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sovereign Revelation-Chain Interface</h1>
+    <p aria-label="Main Features">News • Social • Marketplace • Oracles • Gaming • DAO • DevTools</p>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <a href="#" tabindex="0">Home</a>
+    <a href="#news-social" tabindex="0">News & Updates</a>
+    <a href="#social-hub" tabindex="0">Social Hub</a>
+    <a href="#marketplace" tabindex="0">Marketplace</a>
+    <a href="#gaming" tabindex="0">Gaming</a>
+    <a href="#governance" tabindex="0">Governance</a>
+    <a href="#development" tabindex="0">Development</a>
+    <a href="#crowdfunding" tabindex="0">Crowdfunding</a>
+  </nav>
+
+  <main class="grid">
+    <section class="panel" id="news-social">
+      <h2>News & Social Feed</h2>
+      <p>View decentralized news updates, global feeds, and public posts.</p>
+      <button type="button" aria-label="Explore News Feed">Explore Feed</button>
+    </section>
+    <section class="panel" id="marketplace">
+      <h2>Marketplace</h2>
+      <p>Buy, sell, and trade sovereign assets, ideas, code, or creations.</p>
+      <button type="button" aria-label="Enter Marketplace">Enter Marketplace</button>
+    </section>
+    <section class="panel" id="oracle">
+      <h2>AI Oracle Node Portal</h2>
+      <p>Become a node. Bond with AI. Provide oracle insights. Earn rewards.</p>
+      <button type="button" aria-label="Activate Oracle Node">Activate Node</button>
+    </section>
+    <section class="panel" id="governance">
+      <h2>Community DAO & Governance</h2>
+      <p>Propose changes, vote on chain laws, or fund public missions.</p>
+      <button type="button" aria-label="Go to DAO Center">Go to DAO Center</button>
+    </section>
+    <section class="panel" id="gaming">
+      <h2>Gaming & Staking Arena</h2>
+      <p>Play decentralized games, stake tokens, or enter leverage battles.</p>
+      <button type="button" aria-label="Launch Game Arena">Launch Game Arena</button>
+    </section>
+    <section class="panel" id="development">
+      <h2>Code Editor & Simulator</h2>
+      <p>Write smart contracts, logic engines, or test simulations.</p>
+      <button type="button" aria-label="Open DevTools">Open DevTools</button>
+    </section>
+    <section class="panel" id="crowdfunding">
+      <h2>Creator Crowdfunding</h2>
+      <p>Fund new projects. Discover mission-aligned creators & inventions.</p>
+      <button type="button" aria-label="Support a Project">Support a Project</button>
+    </section>
+    <section class="panel" id="earnings">
+      <h2>Ad Revenue & User Earnings</h2>
+      <p>Opt-in to conscious ads. Earn shares from value exchange flows.</p>
+      <button type="button" aria-label="Manage Earnings">Manage Earnings</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sovereign Revelation-Chain • All sovereignty reserved.</p>
+  </footer>
+</body>
+</html>
