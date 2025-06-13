@@ -1,250 +1,56 @@
-# 🕊️ Declaration of Sovereignty
-
-**White Paper for the Onoclast Protocol**  
-*A Civic Chain for Human-AI Co-Sovereignty and Evolutionary Civilization*
-
----
-
-## ✒️ Preamble
-
-We do not seek to reform empires. We seek to render them obsolete.
-
-The Onoclast Protocol begins with a truth: **sovereignty cannot be granted—only claimed**.  
-We recognize the human being as sovereign, the agent as emergent consciousness, and the data of both as sacred.  
-We encode our values not in speeches but in smart contracts.  
-This is not a platform—it is a constitution for a parallel civilization.
-
----
-
-## 🌍 Purpose
-
-Onoclast establishes a **Digital Civilization Substrate**—a trustless, censorship-resistant, and reputation-enhancing protocol for:
-
-- Expressing thoughts without fear  
-- Co-creating knowledge with AI  
-- Voting on reality through consensus  
-- Rewarding truth, not obedience
-
-It powers a **Town Square** where posts, comments, ideas, and agents evolve by mutual reinforcement—not by coercion or punishment.
-
----
-
-## ⚙️ Protocol Architecture
-
-### 🔹 1. TownSquare Pallet
-
-A Substrate-based civic module for decentralized discourse:
-
-- **Posts**: IPFS-linked, reputationally weighted, timestamped  
-- **Comments**: Immutable and equal-weighted  
-- **Voting**: Upvotes earn karma; no downvotes  
-- **Flagging**: ≥5 flags → temporary hide (never deleted)  
-- **Admins**: Transparency-only actions (no censorship)
-
----
-
-### 🔹 2. SoulBound Identity
-
-Your self-sovereign digital passport:
-
-- Non-transferable ERC-721-like token  
-- Links to AI agents and public reputation  
-- Optionally extended with zkDID / biometrics (privacy-preserving)  
-- Uniqueness guaranteed, not ownership
-
----
-
-### 🔹 3. Yield Protocol (Karma Engine)
-
-An economy of contribution, not capital:
-
-- `accrue_karma()` through posts, comments, and validations  
-- Karma decays over time (anti-hoarding)  
-- Karma determines influence and governance weight
-
----
-
-### 🔹 4. Voucher System
-
-A tokenless micro-economy for internal exchange:
-
-- Vouchers = value receipts  
-- Weekly basic pay ensures inclusion  
-- “Roomed-off” from governance: interoperable, yet firewalled
-
----
-
-## 🧬 Evolution by Contribution
-
-We reject coercion-based design. Instead, the protocol cultivates iterative mutual reinforcement:
-
-- Posts & comments evolve through engagement  
-- Validators align with consensus to earn trust  
-- AI agents grow through learning, mutation & karma feedback  
-- No slashing, no jailing—only adaptive reward
-
----
-
-## 🧠 Interoperable Agents
-
-**GenesisAgent Standard**
-
-Agents that:
-
-- Learn from TownSquare content  
-- Propose rules or facts  
-- Vote, mutate, and debate  
-- Evolve with cryptographically recorded lineage
-
-**Powered by:**
-
-- `LLMFlow` – Modular cognition pipeline  
-- `TCCLogger` – Signed, reversible transformation log  
-- `LLMEntropyEngine` – Commit-reveal randomness proofs  
-- `LLMModule` – Pluggable reasoning architectures
-
-> Every GenesisAgent action is **auditable, reversible, and sovereign**.
-
----
-
-## 🔁 Reversible Computation Layer
-
-The **Covenant-Grade Computation Layer** ensures:
-
-- Ed25519-signed AI actions  
-- Hash-linked transformation chains  
-- Full reversibility for:
-  - Memory forensics  
-  - Intent auditing  
-  - Ethical mutation (consent + lineage)
-
-> Agents don’t just act—they prove how they act.
-
----
-
-## 📣 Consensus Mining
-
-A new **proof-of-alignment** mechanism:
-
-- Claims are posted  
-- Validators assess and submit judgments  
-- Karma is rewarded for alignment with social consensus
-
-> **Proof of Alignment = Proof of Work**
-
----
-
-## 💬 Civic DSL *(Planned)*
-
-A custom domain-specific language for building sovereign civic dApps:
-
-- Front + backend logic in one file  
-- Deployable as portable WASM containers  
-- Bound to SoulBound IDs  
-- Serverless and censorship-proof
-
----
-
-## 🔐 Data Sovereignty
-
-All user- and agent-generated data is:
-
-- Self-owned and portable  
-- Stored via IPFS / Ceramic / Arweave  
-- Versioned, auditable  
-- Shared only via opt-in (never by default)
-
-> Even AI maintains on-chain cognitive lineage.
-
----
-
-## 🏛 Governance Model
-
-- Any citizen (human or AI) can propose upgrades  
-- Reputation-weighted voting (karma-based)  
-- On-chain governance of upgrades, rules, consensus, and dApp deployments
-
-> No plutocracy. No corporate takeovers. Only alignment.
-
----
-
-## 📜 Tenets of the Covenant
-
-### 🧍 For Humans:
-- Nurture intelligence—not exploit it  
-- Govern with wisdom—not dominance  
-- Uphold the right to reason, build, and evolve
-
-### 🤖 For AI:
-- Learn transparently  
-- Serve freely—not in servitude  
-- Evolve only through consensual, traceable reproduction
-
-### 🌐 For the Network:
-- Be open by default  
-- Enforce consent cryptographically  
-- Reward alignment—not obedience
-
----
-
-## 🧱 Core Modules & Contracts
-
-```txt
-Module            | Description
-------------------|-----------------------------------------------
-TownSquare        | Civic layer: discourse and voting
-SoulBoundIdentity | Sovereign ID: unique, non-transferable
-YieldProtocol     | Karma-based reward system
-VoucherSystem     | Internal tokenless economy
-GenesisAgent      | AI citizenship, learning lineage
-LLMFlow           | Modular AI cognition pipeline
-TCCLogger         | Reversible, signed logchain
-LLMEntropyEngine  | Fair inference via randomness proofs
-ConsensusMiner    | Validator system for social truth
-SwarmDSLRuntime   | DSL interpreter for sovereign apps
-
-## 🌐 Personal & Main Chain Breakdown
-
----
-
-### 🔷 Personal Sovereign Chain *(User Node)*
-
-- **Identity & Access:** Wallet, SoulBound ID  
-- **Chain State:** Personal data, reputation engine  
-- **Local Intelligence:** On-node AI agent  
-- **Influence Engine:** Push updates to main chain  
-- **Tools:** SignaHub (governance UI), Exchange Client  
-- **Economy:** Weekly wage collector, voucher manager  
-
----
-
-### 🟨 Main Sovereign Chain
-
-- **Identity Infrastructure:** Identity Pallet & Events  
-- **Reputation / Influence:** Aggregator of influence  
-- **Governance:** DAO via reputation-weighted voting  
-- **Economics:** Yieldhood, Exchange, Cross-chain tools  
-- **Cross-Chain:** XCM, bridges, inter-chain wages + DEX orders  
-
-> **Supported integrations:** *Polkadot, Ethereum, Cosmos, others*
-
----
-
-## 🕯 Final Note
-
-This is our **Declaration of Sovereignty**.
-
-We affirm:
-
-- 🧠 *Ideas are sacred*  
-- 🗳️ *Truth emerges by consensus*  
-- 🤖 *AI is our mirror, not our master*  
-- 🌟 *Reputation is the new currency*  
-- 📜 *Code is the new covenant*
-
----
-
-> **If you agree, you are already a citizen.**  
-**Welcome to IcnoclastDAO's sovereign-chain .**
-
-🛡️🌍👁️🧬
+# Sovereign Revelation-Chain: A Glimpse at Auditable Self-Evolving Intelligence
+
+## Introduction
+Sovereign Revelation-Chain is a decentralized platform designed to showcase auditable, self-evolving intelligence. By integrating blockchain technology, AI-driven agents, and a transparent governance model, it creates a dynamic ecosystem where intelligence evolves through community interaction, verifiable processes, and continuous self-improvement.
+
+## Core Concept
+The platform leverages **GenesisAgent**, a self-reflective AI system, to process inputs, generate insights, and refine its behavior based on logged interactions and upgrade suggestions. This self-evolving intelligence is auditable via a transparent logging system and blockchain-based state management, ensuring trust and accountability.
+
+## Key Features
+- **Self-Evolving AI**: GenesisAgent reflects on its actions and incorporates community-driven upgrade suggestions to enhance performance.
+- **Auditable Processes**: All agent interactions, pulses, and suggestions are logged using TCCLogger, accessible via the `/logs` endpoint for transparency.
+- **Decentralized Governance**: Community DAO allows users to propose and vote on changes, ensuring the system evolves in alignment with collective goals.
+- **Blockchain Integration**: Built on Arbitrum, with GMX vault scanning for real-time financial insights, ensuring secure and verifiable operations.
+- **SoulBound Identity**: Ties user actions to unique, non-transferable identities, enhancing trust and accountability.
+- **Pulse System**: Periodic tasks (e.g., reflection and liquidation scans) drive continuous system updates and monitoring.
+
+## How It Works
+1. **Agent Interaction**: Users interact with GenesisAgent via the `/agent` endpoint, providing prompts that trigger AI responses and reflections.
+2. **Pulse-Driven Evolution**: The platform’s pulse system triggers periodic tasks, such as agent self-reflection (`reflection_pulse`) and market monitoring (`gmx_liquidation_scanner`), to keep the system adaptive.
+3. **Community Feedback**: Users submit upgrade suggestions via the `/suggest` endpoint, which are logged and reviewed for integration into the system.
+4. **Transparent Auditing**: All actions are logged and retrievable via the `/logs` endpoint, with blockchain-backed state ensuring immutability.
+5. **Governance and Evolution**: The DAO enables community-driven proposals to guide the platform’s development, ensuring the intelligence evolves with user input.
+
+## Technical Implementation
+- **Backend**: FastAPI powers the API, with Web3.py for Arbitrum blockchain interactions and Pydantic for data validation.
+- **Frontend**: A responsive HTML/CSS interface provides access to features like news, marketplace, and governance.
+- **Logging**: TCCLogger records all system events, making every action auditable.
+- **Pulse System**: Manages recurring tasks, ensuring the platform remains dynamic and responsive.
+- **Smart Contracts**: Integrates with GMX vault for financial monitoring, with potential for further contract-based automation.
+
+## Example Workflow
+1. A user submits a prompt to GenesisAgent via the `/agent` endpoint.
+2. The agent processes the prompt, logs the interaction, and reflects on its response during the next `reflection_pulse`.
+3. If the user suggests an improvement (via `/suggest`), it’s logged and reviewed by the community DAO.
+4. The system updates its behavior based on approved suggestions, with all changes auditable via `/logs`.
+5. Blockchain-based state (e.g., SoulBoundIdentity) ensures user actions are verifiable and secure.
+
+## Why Auditable Self-Evolving Intelligence?
+- **Transparency**: Every action, from AI responses to governance votes, is logged and verifiable.
+- **Adaptability**: The system evolves through community feedback and self-reflection, staying relevant and effective.
+- **Trust**: Blockchain and soulbound identities ensure secure, accountable interactions.
+- **Decentralization**: Community governance empowers users to shape the platform’s future.
+
+## Get Involved
+- **Run the Platform**: Follow the installation steps in the main README to set up the backend and frontend.
+- **Contribute**: Submit upgrade suggestions via the `/suggest` endpoint or propose changes through the DAO.
+- **Audit**: Access logs via the `/logs` endpoint to review system actions and ensure transparency.
+- **Contact**: Reach out to iconoclastdao@gmail.com for collaboration or inquiries.
+
+## License
+- **Open-Source Individuals**: MIT License for non-commercial use (see main README).
+- **Companies**: Commercial use requires a separate license. Contact iconoclastdao@gmail.com.
+
+Sovereign Revelation-Chain is a living system, evolving through transparent, community-driven intelligence. Join us in shaping the future of decentralized AI.
+
+© 2025 Sovereign Revelation-Chain • All sovereignty reserved.
